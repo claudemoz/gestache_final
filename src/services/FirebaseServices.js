@@ -2,13 +2,22 @@ import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAfvwpW6ziwASdZd2wx-YxQng_B9yn_wUM",
+//   authDomain: "ges-tache.firebaseapp.com",
+//   projectId: "ges-tache",
+//   storageBucket: "ges-tache.appspot.com",
+//   messagingSenderId: "948366225037",
+//   appId: "1:948366225037:web:5935e320b5d367d78a3cc4"
+// };
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAfvwpW6ziwASdZd2wx-YxQng_B9yn_wUM",
-  authDomain: "ges-tache.firebaseapp.com",
-  projectId: "ges-tache",
-  storageBucket: "ges-tache.appspot.com",
-  messagingSenderId: "948366225037",
-  appId: "1:948366225037:web:5935e320b5d367d78a3cc4"
+  apiKey: "AIzaSyCDvq11TD_oe2mfFk1Wy-og0O6RDqTX2bQ",
+  authDomain: "ges-taches.firebaseapp.com",
+  projectId: "ges-taches",
+  storageBucket: "ges-taches.firebasestorage.app",
+  messagingSenderId: "1064377873464",
+  appId: "1:1064377873464:web:5f8e628c4b03161e6f22cd"
 };
 
 // Initialize Firebase
